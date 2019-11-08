@@ -15,8 +15,8 @@ class App extends Component {
         <div>Have fun!</div> */}
 
         <SmurfProvider>
-          <SmurfList />
           <AddSmurf />
+          <SmurfList />
         </SmurfProvider>
       </div>
     );

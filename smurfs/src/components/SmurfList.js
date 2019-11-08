@@ -3,7 +3,7 @@ import Smurf from './Smurf';
 import { SmurfContext } from '../contexts/SmurfContext'
 
 const SmurfList = () => {
-  const { smurfs } = useContext(SmurfContext);
+  const [smurfs, setSmurfs] = useContext(SmurfContext);
 
 	return (
 		<div>

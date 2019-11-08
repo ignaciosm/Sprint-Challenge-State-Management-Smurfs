@@ -1,4 +1,4 @@
-import React, {useEffect, useContext} from 'react'
+import React, {useContext} from 'react'
 import Smurf from './Smurf';
 import { SmurfContext } from '../contexts/SmurfContext'
 
@@ -7,7 +7,6 @@ const SmurfList = () => {
 
 	return (
 		<div>
-      <h1>Smurf List</h1>
       {console.log('list', smurfs)}
       {smurfs.map(smurf => (
         <Smurf key={smurf.id} smurf={smurf}/>
